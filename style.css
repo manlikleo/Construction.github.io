@@ -1,0 +1,587 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8%;
+    background-color: rgb(255, 217, 0);
+}
+#topbar ul li {
+    display: inline-block;
+    padding: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8%;
+    align-items: center;
+    background-color: rgb(28, 28, 41);
+    color: white;
+}
+nav ul li {
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+nav ul li a .fa-search {
+    color: rgb(255, 217, 0);
+}
+#logo h1{
+    color: rgb(255, 217, 0);
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+#logo p {
+    font-style: italic;
+    font-size: small;
+}
+.yellow {
+    color: rgb(255, 217, 0);
+}
+section#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to right, rgba(28,28,41,0.7),rgba(28,28, 41,0.7)), url('./375051.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+
+}
+section #hero-content {
+    width: 60vw;
+    text-align: center;
+}
+#hero h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+#hero button {
+    padding: 15px;
+    background-color: rgb(255, 217, 0) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-left: 15px;
+
+}
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr;
+    width: 70vw;
+    margin: auto;
+}
+.welcome img {
+    width:30vw;
+
+}
+.left h1 {
+    font-size: 2em;
+}
+.left {
+    padding-top: 50px;
+}
+.left p {
+    padding-top: 30px;
+}
+.left button {
+    padding: 14px;
+    margin-top: 10px;
+    background-color: rgb(255, 217, 0);
+    border:none;
+    border-radius: 10px;
+}
+
+
+.choose-us {
+    text-align: center;
+    background-color: rgb(164, 175, 224);
+    padding: 30px 10vw 10% 30px;
+    
+
+}
+
+.choose-us h1{
+text-transform: uppercase;
+font-weight: 800;
+font-size: 1.5em;
+padding: 15px 0;
+
+}
+
+.choose-us p{
+    padding-bottom: 20px;
+}
+
+
+.inner-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 8px solid rgb(255,217,0);
+}
+
+.second-circle{
+    width: 115px;
+    height: 115px;
+    background-color: rgb(255, 217, 0,0.400);
+    border-radius: 50%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outter-circle {
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    background-color: rgb(255, 257, 0, 0.300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.item-inner{
+    width: 15vw;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 80vw;
+    margin: auto;
+  
+}
+.choose-us-p{
+    width: 70vw;
+    margin: auto;
+}
+.item-inner h2 {
+    padding: 20px 0 10px  0 ;
+}
+
+.item-inner .fa-users,.fa-futbol,.fa-chart-line,.fa-envira {
+    font-size: 40px;
+    padding-top: 20px;
+    color: #555;
+}
+
+.services{
+    height: auto;
+}
+.services h1,h2{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.service-content{
+    width: 70vw;
+    margin: auto;
+    text-align: left;
+    padding: 30px 0 ;
+}
+
+.card img{
+ width: 100%;
+}
+
+.card-group{
+    display: flex;
+}
+
+.card{
+    margin: 10px;
+}
+.card button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 217, 0);
+    color: black;
+    margin-top: 20px;
+}
+
+.madewithlove{
+    background-image: linear-gradient(to bottom, rgba(255,217,0,0.800),rgba(255,217,0,0.7000)),url(./brady-frieden-AupdmQ4w_M4-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: BLACK;
+    text-align: center;
+    padding: 40px 0 ;
+}
+
+.madewithlove h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.madewithlove p{
+    padding: 20px 20%;
+    font-weight: 400;
+
+}
+
+.madewithlove ul li {
+    display: inline-block;
+    padding: 10px;
+    font-weight: lighter;
+    
+}
+
+.madewithlove ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.madewithlove .active{
+    padding: 10px;
+    background-color:black;
+    border-radius:50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px ;
+    grid-gap: 5px;
+    padding: 20px 40px;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.first-container{
+    background-image: url(./Building\ 1.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.second-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    grid-gap: 5px;
+}
+
+.second{
+    background-image: url(./Building\ 2.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.third{
+    background-image: url(./Building\ 3.png);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.forth{
+    background-image: url(./Building\ 4.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.fifth{
+    background-image: url(./Untitled\ design\ \(13\).png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Customer-review {
+height: 100vh;
+background: linear-gradient(to top,rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url(./5252e064861301.5ae0479bc6aad.jpg);
+background-size: cover;
+background-position: center;
+padding: 70px 70px;
+margin: 0px auto ;
+}
+
+.Customer-review h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+
+.Customer-review p{
+    font-size: 16px;
+    text-align: center;
+    padding: 3px 40px;
+    font-weight: bold;
+}
+
+
+
+.testimonial{
+   margin: 30px 0 0 30px;
+    height: 250px;
+    width: 420px;
+    border-radius: 30px;
+    position: relative;
+    border:none;
+    background-color:  rgb(184, 187, 194);
+    padding: 30px 15px;
+    justify-content: center;
+}
+.testimonial-2{
+    background-color:rgb(255, 217, 0);
+    margin: 30px 0 0 30px;
+    height: 250px;
+    width: 420px;
+    border-radius: 30px;
+    position: relative;
+    border:none;
+    padding: 30px 15px;
+    justify-content: center;
+
+}
+.down-arrow-2{
+     width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid rgb(255, 217, 0);
+    margin: 0 auto;
+    position: relative;
+   
+}
+.down-arrow {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid rgb(184, 187, 194);
+    margin: 0 auto;
+    position: relative;
+
+}
+.container-frame{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 500px;
+}
+
+.user-pic, .user-pic-2 , .user-pic-3 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 10px auto;
+    padding: 10px 10px;
+   
+}
+
+.container-frame h3{
+ text-align: center;
+}
+
+.user-pic{
+    background-image: url(./Image-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.user-pic-2 {
+    background-image: url(./Image-2.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.user-pic-3{
+    background-image: url(./image-3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.contact-us{
+ display: grid;
+grid-template-columns: 1fr 1fr ;
+padding: 30 30px ;
+margin: 0 auto;
+height: 20vh;
+background:linear-gradient(to top,rgba(255, 217, 13, 0.9),rgba(255, 217,0.9)), url(./5252e064861301.5ae0479bc6aad.jpg);
+}
+
+.FORMS{
+    display: grid;
+    grid-template-rows: 50px 50px;
+    margin:20px 30px ;
+    
+    
+}
+
+.contact-us-content {
+    padding: 20px 5px;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.name{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.email{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+}
+
+input::placeholder {
+    color:black;
+    padding-left: 10px;
+}
+
+.message{
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+.submit{
+    width: 120px ;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius:10px ;
+    margin-right:30px ;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 60vh;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 70px 70px;
+    background: linear-gradient(to right,rgba(10, 10, 0, 0.904),rgba(10, 10, 0, 0.945)), url(./Building\ 3.png);
+    background-size: fill;
+    color: white;
+}
+
+.first-footer{
+    padding-left: 30px;
+}
+
+.first-footer h3{
+ margin-top: 10px;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first-footer p{
+    margin-bottom: 10px ;
+}
+.topbar-logo{
+    display: flex;
+    justify-content: space-evenly;
+     list-style: none;
+     align-items: left;
+     margin: 0 auto;
+}
+
+.second-footer ul {
+    text-decoration: none;
+    line-height: 30px;
+
+
+}
+.second-footer a{
+    text-decoration: none;
+    color: white;
+
+}
+.second-footer{
+    padding: 0px 40px;
+}
+
+.circle {
+   display: flex; 
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.innercircle h4{
+    padding:3px 8px;
+    font-size: 13px;
+
+}
+
+.innercircle {
+    height:50px ;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+
+.text-area p {
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.third-footer h3{
+    margin-bottom: 20px;
+}
+
+.forth-footer ul {
+ padding-top: 30px;
+ list-style: none;
+
+}
+
+.forth-footer li{
+    padding-bottom: 10px;
+
+}
+
+.forth-footer i{
+    margin-right: 10px;
+}
+
+
+
+
+
